@@ -39,7 +39,6 @@ wedges, texts, autotexts = ax1.pie(
 )
 plt.setp(autotexts, size=12, weight="bold")
 plt.setp(texts, size=11)
-ax1.set_title("Top 8 Genres in the Catalog")
 centre_circle = plt.Circle((0, 0), 0.7, fc='white')
 fig1.gca().add_artist(centre_circle)
 
@@ -49,12 +48,11 @@ wordcloud = WordCloud(width=700, height=700, background_color='white', colormap=
 fig2, ax2 = plt.subplots(figsize=(7, 7))  # << same figsize as donut chart
 ax2.imshow(wordcloud, interpolation='bilinear')
 ax2.axis('off')
-ax2.set_title("Most Common Artists", fontsize=16)
 
 # Side by side in Streamlit
 col1, col2 = st.columns(2)
 with col1:
-    st.subheader("🎨 Music Catalog at a Glance")
+    st.subheader("🎨 Top 8 Genres in the Catalog")
     st.pyplot(fig1)
 with col2:
     st.subheader("✨ Artist Highlights")
