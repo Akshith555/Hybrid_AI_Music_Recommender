@@ -137,7 +137,7 @@ if song_input:
     else:
         matches['Display'] = matches['track_name'] + " - " + matches['artist_name']
         selected_from_search = st.selectbox(
-            "Select a song to use as your query:",
+            "Songs We Found:",
             matches['Display'],
             key="search_select"
         )
