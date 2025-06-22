@@ -55,7 +55,7 @@ music-recommender-sbert-faiss/
 
 ## 📊 The Dataset
 
-* **Source:** [Spotify Kaggle Dataset](https://www.kaggle.com/datasets/lehaknarnauli/spotify-datasets)
+* **Source:** [Spotify Kaggle Dataset](https://www.kaggle.com/datasets/zaheenhamidani/ultimate-spotify-tracks-db)
 * **Full Dataset:** 232,725 songs × 18 features 
 * **App Demo:** Uses a sample (\~15,000 tracks) for fast and free exploration
 * **Features:** Genre, artist name, track name, popularity, mood/audio features (valence, danceability, etc.)
