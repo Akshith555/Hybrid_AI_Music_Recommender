@@ -6,6 +6,10 @@ Welcome to **Hybrid AI Music Recommendation System** – an interactive app wher
 
 *(No sign-up needed. Explore, play, and enjoy music recommendations instantly!)*
 
+<p align="center">
+  <img src="app_screenshot.png" alt="App Screenshot" width="700"/>
+</p>
+
 ---
 
 ## 🚀 Project Overview
